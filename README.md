@@ -5,13 +5,12 @@ Template for bootstrap projects with Node.js and TypeScript.
 Base example for my articles:
 
 - **Dev.to**: [Node.js with TypeScript, Debug inside VSCode and Nodemon](https://dev.to/oieduardorabelo/nodejs-with-typescript-debug-inside-vscode-and-nodemon-23o7)
-- **Medium:** [Node.js e TypeScript: O como e com testes](https://medium.com/@oieduardorabelo/node-js-e-typescript-o-como-e-com-testes-7affce2c02a8)
 
 ## Debugging
 
 After starting the app with `npm run dev:debug`, you've two options:
 
-1. For in-editor debug with VSCode, configuration already included in `.vscode/launch.json`. It will attach the debbuger to the running process.
+1. For in-editor debug with VSCode, choose the process with the pid indicated in the debug output
 2. You can look at `chrome://inspect` to open a debugger panel using Google Chrome DevTools.
 
 ## Screenshots
